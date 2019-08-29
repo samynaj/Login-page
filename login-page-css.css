@@ -7,6 +7,25 @@ body {
     display: flex;
     font-family: 'Pontano Sans', sans-serif;
 }
+@media screen and (max-width: 600px) {
+    p#para {
+        width: 95px;
+        text-align: center;
+        font-size: 5vw;
+        color: 
+    }
+    input, label, span {
+        max-width: 30vw;
+        max-height: 2.3vh;
+        font-size: 1.8vh;
+        min-width: 27vw;
+    }
+    a {
+        font-size: 1.65vh;
+        max-width: 2vw;
+
+    }
+}
 img{
     width: 25%;
     display: block;
@@ -49,21 +68,22 @@ input {
 button, label {
     min-width: 23vw;
     border-radius: 2vw;
-    margin-top: 3vh;
+    margin-top: 2.5vh;
     background: transparent;
     color: hsl(253, 68%, 76%);
     min-height: 4vh;
 }
 button {
-    background: rgb(67, 55, 136);
+    background: hsl(60, 3%, 85%);
     border: none;
+    color: hsl(253, 68%, 35%);
     
 }
 span {
     color: hsl(253, 68%, 76%);
 }
 a {
-    margin-left: 4vw;
+    margin-left: 2.8vw;
     color: hsl(252, 22%, 86%);
     text-decoration: none;
 }
@@ -75,11 +95,15 @@ h1 {
     color:hsl(253, 68%, 35%);
     font-weight: 800;
     font-size: 5vw;
+}
+p#para {
+    color: hsl(252, 36%, 61%);
 } 
 p {
-    color: hsl(253, 70%, 68%);
-    font-size: 2vw;
+    color: hsl(253, 42%, 80%);
+    font-size: 2.5vw;
     font-family: 'Great Vibes', cursive;
+    font-weight: 700;
 }
 img#vw {
     margin-top: 3vh;
@@ -87,10 +111,25 @@ img#vw {
 }
 footer {
     position: absolute;
-    bottom: 0;
-    width: 50vw;
+    bottom: 1px;
+    width: 45vw;
     text-align: center;
     color:hsl(253, 68%, 35%);
+    font-size: 1.5vw;
+}
+@media screen and (max-width: 600px) {
+    footer { 
+        position: absolute;
+        bottom: 2.5px;
+        width: 50vw;
+        text-align: center;
+        color:hsl(253, 68%, 35%);
+        font-size: 4vw;
+    }
+    button {
+        font-size: 1.5vh;
+        width: 25vw;
+    }
 }
 #google {
     width: 2vw;
