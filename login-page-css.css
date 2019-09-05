@@ -61,9 +61,13 @@ button, label {
     min-height: 4vh;
 }
 button {
-    background: hsl(60, 3%, 85%);
+    background: #0896a0;
     border: none;
-    color: hsl(253, 68%, 35%);
+    color: whitesmoke;
+    padding: 0 auto;
+}
+.sign {
+    padding: 0 2vw;
 }
 span {
     color: hsl(253, 68%, 76%);
@@ -77,15 +81,16 @@ a#forgot {
     margin: 0 auto;
 }
 h1 {
-    color:hsl(253, 68%, 35%);
+    color: #0896a0;
     font-weight: 800;
     font-size: 5vw;
     font-family: 'El Messiri', sans-serif;
 }
 p#para {
     width: 25vw;
-    color: hsl(252, 36%, 61%);
+    color: #0896a0;
     text-align: center;
+    margin: 2vh auto;
 } 
 p {
     color: hsl(253, 42%, 80%);
@@ -151,10 +156,17 @@ footer {
         max-width: 2vw;
     }
     button {
-        font-size: 2vh;
-        min-width: 18vw;
+        font-size: 1.9vh;
+        min-width: 20vw;
         margin-bottom: 1vh;
-        margin-right: 2vw;
+        margin-right: 1vw;
+    }
+    .buttons {
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .sign {
+        padding: 0 2vw;
     }
     input, button {
         border-radius: 0.5vh;
